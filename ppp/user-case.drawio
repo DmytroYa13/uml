@@ -1,17 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2022-07-03T18:46:30.457Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="K_MtRcn9AH-qyGJ_LaEg" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-03T20:00:10.890Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="PkMrAQ12XnWYS11zegOu" version="20.0.4" type="github">
   <diagram id="vrzrKsfc7HYijvNeg2m8" name="Page-1">
-    <mxGraphModel dx="687" dy="254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="y9ZoLtRb1wtq4ngt11Zq-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;" edge="1" parent="1" source="y9ZoLtRb1wtq4ngt11Zq-1" target="y9ZoLtRb1wtq4ngt11Zq-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="90" />
+              <mxPoint x="90" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="y9ZoLtRb1wtq4ngt11Zq-1" value="teacher" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="50" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="y9ZoLtRb1wtq4ngt11Zq-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="60" width="120" height="60" as="geometry" />
+        <mxCell id="y9ZoLtRb1wtq4ngt11Zq-4" value="&lt;font style=&quot;font-size: 6px; line-height: 0.7;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;- може модерувати (CRUD)&amp;nbsp; екзамен/контрольна/літучька/білет/тест/лейба&lt;br&gt;- може вказувати область видимості екзамен/контрольна/літучька/білет/тест/лейба&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;(локальна - тільки в себе, глобальна - всі вчителі можуть бачити)&lt;br&gt;&amp;nbsp;&lt;br style=&quot;font-size: 6px;&quot;&gt;&lt;/font&gt;- може бачити статистику студентів&lt;br style=&quot;font-size: 6px;&quot;&gt;- може створювати графік&lt;br style=&quot;font-size: 6px;&quot;&gt;- може створювати помітки про студента&lt;br style=&quot;font-size: 6px;&quot;&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="130" y="60" width="320" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="y9ZoLtRb1wtq4ngt11Zq-5" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;може створювати:&lt;br&gt;- екзамен&lt;br&gt;- контрольну&lt;br&gt;- групи&lt;br&gt;&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="150" y="50" width="80" height="70" as="geometry" />
+        <mxCell id="y9ZoLtRb1wtq4ngt11Zq-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=6;" edge="1" parent="1" source="y9ZoLtRb1wtq4ngt11Zq-10" target="y9ZoLtRb1wtq4ngt11Zq-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9ZoLtRb1wtq4ngt11Zq-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=6;" edge="1" parent="1" source="y9ZoLtRb1wtq4ngt11Zq-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y9ZoLtRb1wtq4ngt11Zq-10" value="admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y9ZoLtRb1wtq4ngt11Zq-11" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;- може заповнювати профіль команії&lt;br&gt;- може модерувати (CRUD) вчителя&lt;br&gt;- може робити вчителя адміном&lt;br&gt;- може бачити списки вчителів/груп/студентів&lt;br&gt;- може надсилати повідомлення вчителям/учням&lt;br&gt;- може створювати новини&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=7;arcSize=17;align=left;" vertex="1" parent="1">
+          <mxGeometry x="130" y="220" width="320" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="y9ZoLtRb1wtq4ngt11Zq-17" value="student" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="410" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y9ZoLtRb1wtq4ngt11Zq-18" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;- can pass exam/test&lt;br&gt;- can leave comment about exam/test&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=7;arcSize=17;align=left;" vertex="1" parent="1">
+          <mxGeometry x="120" y="430" width="320" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
